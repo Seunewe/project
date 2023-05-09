@@ -1,0 +1,116 @@
+/* menu */
+.sintec h1{
+    background-color: tomato;
+    font-weight: 900;
+}
+.con{
+    padding-top: 20px;
+}
+.sintec{
+    text-align: center;
+}
+ul{
+    display: flex;
+    margin-left: 200px;
+    list-style-type: none;
+}
+.menu ul li a{
+    padding-left: 50px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* styling make your dream */
+.background{
+    background-image: linear-gradient( rgba(0, 0, 300, 0.2), rgba(0, 0, 300, 0.2)), url("../images/coast.jpg");
+    height: 60vh;
+}
+.background h4{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 150px;
+    font-size: 1rem;
+}
+.divider{
+    margin-top: 10px;
+    background-color: white;
+    width: 80px;
+    margin-left: 720px;
+    height: 3px;
+}
+.make{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+}
+.background button{
+    background-color: tomato;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 700px;
+}
+.image{
+    padding-top: 50px;
+}
+.we{
+    padding-top: 100px;
+}
+.we h6{
+    font-weight: 400;
+    padding-top: 20px;
+}
+.we button{
+    background-color: tomato;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* styling boxes */
+.boxes{
+    margin-top: 30px;
+    padding: 100px;
+}
+.card:hover{
+    color: red;
+}
+.box{
+    margin-left: 80px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: white;
+    width: 200px;
+    height: 250px;
+
+}
+.box h3{
+    padding-top: 130px;
+    text-align: center;
+  font-size: 1rem;  
+}
+.box h6{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 400;  
+}
+
+/* styling pro */
+.pro{
+    background-image: linear-gradient( rgba(0, 0, 300, 0.2), rgba(0, 0, 300, 0.2)), url("../images/coast.jpg");
+    height: 60vh;
+}
+.provide{
+    padding-top: 100px;
+}
+.happy{
+    display: flex;
+}
+.happy h2{
+    padding-top: 50px;
+    color: red;
+}
+.k{
+    padding-left: 90px;
+}

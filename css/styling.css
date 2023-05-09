@@ -1,0 +1,132 @@
+.cont{
+    display: flex;
+    background-color: black;
+}
+h1 span{
+    color: goldenrod;
+}
+.menu ul{
+    color: white;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    list-style: none;
+}
+li{
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.button{
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 180px;
+    padding-top: 14px;
+}
+h1{
+    color: #fff;
+    margin-left: 50px;
+    padding-top: 10px;
+}
+.image img{
+    width: 550px;
+    height: 420px;
+    margin-top: 150px;
+    margin-left: 40px;
+}
+.con .row .contain h2{
+    margin-top: 150px;
+    margin-left: -20px;
+}
+.con .row .contain p{
+    margin-left: -20px;
+}
+.hsix{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.hsix input{
+    border-color: goldenrod;
+    height: 0px;
+    width: 80px;
+    margin-top: 10px;
+}
+h3{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.cards .c{
+    margin-right: 40px;
+    padding-top: 10px;
+}
+.cards .c img{
+    width: 200px;
+    height: 250px;
+}
+.down{
+    margin-top: 20px;
+}
+.abel{
+    margin-top: 30px;
+    margin-left: 25px;
+}
+.adam{
+    margin: 30px;
+    font-size: 12px;
+}
+.phone{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 12px;
+}
+.use{
+    margin-right: 30px;
+    font-size: 20px;
+    margin-top: 40px;
+}
+.ser{
+    margin-right: 50px;
+    font-size: 12px;
+    list-style: none;
+}
+.ur{
+    margin-right: 30px;
+    font-size: 20px;
+    margin-top: 40px;
+}
+.web{
+    margin-right: 50px;
+    font-size: 12px;
+    list-style: none;
+}
+.news{
+    margin-right: 30px;
+    font-size: 20px;
+    margin-top: 40px;
+}
+.coming{
+    margin-right: 20px;
+    font-size: 12px;
+    list-style: none;
+    margin-top: 30px;
+}
+.b{
+    margin-top: 40px;
+    margin-right: 30px;
+}
+.copy{
+    padding-top: 100px;
+    font-size: 10px;
+    margin-bottom: -10px;
+}
+.design{
+    padding-bottom: 50px;
+    font-size: 10px;
+}
+.last{
+    text-align: center;
+}

@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-fluid .navbar-brand{
+    color: tomato;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding-right: 720px;
+}
+.nav-link:hover{
+    color: yellow;
+}
+.navbar{
+    background-color: gold;
+}
+#navas{
+    font-weight: bold;
+    padding: 10px;
+}
+.container-fluid img{
+    width: 50px;
+    height: 50px;
+}
