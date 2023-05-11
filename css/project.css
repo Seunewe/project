@@ -1,7 +1,9 @@
 /* menu */
 .sintec h1{
     background-color: tomato;
-    font-weight: 900;
+    font-weight: 700;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
 .con{
     padding-top: 20px;
@@ -19,11 +21,18 @@ ul{
     text-decoration: none;
     font-weight: 600;
 }
+.menu a{
+    color: black;
+}
+.menu a:hover{
+    color: tomato;
+}
 
 /* styling make your dream */
 .background{
     background-image: linear-gradient( rgba(0, 0, 300, 0.2), rgba(0, 0, 300, 0.2)), url("../images/coast.jpg");
     height: 60vh;
+    margin-top: -10px;
 }
 .background h4{
     color: white;
@@ -69,10 +78,9 @@ ul{
 
 /* styling boxes */
 .boxes{
-    margin-top: 30px;
     padding: 100px;
 }
-.card:hover{
+.boxes:hover{
     color: red;
 }
 .box{
@@ -95,11 +103,19 @@ ul{
     font-size: 0.8rem;
     font-weight: 400;  
 }
+.boxes img{
+    align-self: center;
+    margin-top: 20px;
+}
 
 /* styling pro */
 .pro{
-    background-image: linear-gradient( rgba(0, 0, 300, 0.2), rgba(0, 0, 300, 0.2)), url("../images/coast.jpg");
-    height: 60vh;
+    background-color: beige;
+    height: 70vh;
+}
+.pro img{
+    margin-left: 80px;
+    margin-top: 66px;
 }
 .provide{
     padding-top: 100px;
@@ -113,4 +129,196 @@ ul{
 }
 .k{
     padding-left: 90px;
+}
+.review{
+    padding: 50px;
+}
+
+
+
+/* our */
+.divider1{
+    margin-top: 50px;
+    background-color: red;
+    width: 150px;
+    height: 2px;
+    margin-left: 680px;
+}
+.divider2{
+    background-color: red;
+    width: 50px;
+    height: 10px;
+    margin-left: 730px;
+    margin-top: -5px;
+}
+.female{
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+.menudown ul{
+    margin-left: -59px;
+    margin-top: 40px;
+}
+.menudown ul li a{
+    padding: 30px;
+    text-decoration: none;
+}
+.menudown a{
+    color: black;
+}
+.menudown a:hover{
+    color: red;
+}
+.divider3{
+    margin-top: 50px;
+    background-color: red;
+    width: 150px;
+    height: 2px;
+    margin-left: 680px;
+}
+.divider4{
+    background-color: red;
+    width: 50px;
+    height: 10px;
+    margin-left: 730px;
+    margin-top: -5px;
+}
+.box1 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.box1{
+    background-color: white;
+    width: 500px;
+    height: 170px;
+    border-radius: 10px;
+    margin-left: 80px;
+}
+.box1 h4{
+    font-size: 1.2rem;
+    margin-left: 150px;
+    margin-top: -98px;
+    font-weight: bold;
+}
+.box1 h5{
+    font-weight: 500;
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-left: 150px;
+}
+.box1 h6{
+    font-weight: 400;
+    font-size: 0.8rem;
+    margin-left: 150px;
+}
+
+/* recent news */
+.divider5{
+    margin-top: 50px;
+    background-color: red;
+    width: 150px;
+    height: 2px;
+    margin-left: 680px;
+}
+.divider6{
+    background-color: red;
+    width: 50px;
+    height: 10px;
+    margin-left: 730px;
+    margin-top: -5px;
+}
+.field h6{
+    font-weight: 400;
+}
+
+
+/* footer */
+.useful{
+    font-size: 1.3rem;
+    margin: 50px ;
+    margin-left: 50px;
+}
+.divider7{
+    background-color: grey;
+    width: 400px;
+    height: 1px;
+    margin-left: 50px;
+    margin-top: -3px;
+    margin-bottom: 50px;
+}
+.link ul li a{
+    text-decoration: none;
+}
+.link ul{
+    display: block;
+}
+.link a{
+    margin-left: -200px;
+}
+.link li{
+    padding: 15px;
+}
+.links ul li a{
+    text-decoration: none;
+}
+.links ul{
+    display: block;
+}
+.links a{
+    margin-left: -200px;
+}
+.links li{
+    padding: 10px;
+}
+.days h5{
+    font-size: 1rem;
+    margin-left: 30px;
+    padding: 10px;
+}
+.time h5{
+    font-size: 1rem;
+    margin-right: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: end;
+}
+.sub{
+    display: flex;
+}
+.sub input{
+    margin-top: 20px;
+    margin-left: 50px;
+    background-color: silver;
+}
+.sub button{
+    margin-top: 20px;
+    color: white;
+    font-weight: 800;
+    padding: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.8rem;
+    background-color: tomato;
+}
+.up{
+    font-size: 0.7rem;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.p{
+    color: tomato;
+    font-size: 0.7rem;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.copy{
+    padding-top: 100px;
+    padding-bottom: 30px;
+    font-size: 0.8rem;
+    text-align: center;
+}
+.copy span{
+    color: tomato;
 }
